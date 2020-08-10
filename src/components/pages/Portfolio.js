@@ -4,6 +4,10 @@ import Thumbnail from "../Thumbnail";
 import searchImg from "../../Assets/search.png";
 import cookImg from "../../Assets/cook.png";
 import sleepImg from "../../Assets/sleep.png";
+import directoryImg from "../../Assets/directory.png";
+import weatherImg from "../../Assets/weather.png";
+import budgetImg from "../../Assets/budget.png";
+
 
 
 function Portfolio() {
@@ -22,7 +26,22 @@ function Portfolio() {
       name: "ZTrak - The Sleep App",
       thumbnail: sleepImg,
       url: "https://github.com/kennyqng/project3"
-    }
+    },    
+    {
+      name: "Employee Directory",
+      thumbnail: directoryImg,
+      url: "https://kennydirectoryreact.herokuapp.com/"
+    },    
+    {
+      name: "Weather App",
+      thumbnail: weatherImg,
+      url: "https://kennyqng.github.io/Weather-Dashboard/"
+    },    
+    {
+      name: "Budget App",
+      thumbnail: budgetImg,
+      url: "https://pantry-chef-kenny.herokuapp.com/"
+    },
   ];
   return (
     <div>

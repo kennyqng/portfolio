@@ -113,11 +113,11 @@ height: 5px;
 }
 footer {
   position: absolute;
+  margin-top: 60px;
   bottom: 0px;
   width: 100%;
   height: 60px;
   line-height: 60px;
   background-color: darkgray;
-  margin-top: 60px;
 };
 
