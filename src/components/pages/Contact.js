@@ -1,6 +1,28 @@
 import React from "react";
+import emailjs from "emailjs-com";
 
 function Contact() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "gmail",
+        "template_btH0u4ho_clone",
+        e.target,
+        "user_H6Pa2RP1OUsikhzB1k00c"
+      )
+      .then(
+        result => {
+          console.log(result.text);
+          alert("sent!")
+        },
+        error => {
+          console.log(error.text);
+        }
+      );
+  }
+
   return (
     <div>
       {/* Form goes here */}
@@ -9,38 +31,37 @@ function Contact() {
 
         <div className="container border border-dark mb-4"></div>
 
-        <form>
+        <form className="contact-form" onSubmit={sendEmail}>
           <div className="form-group">
-            <label for="exampleFormControlInput1">Name</label>
+            <label>Name</label>
             <input
-              type="email"
+              type="text"
               className="form-control"
-              id="exampleFormControlInput1"
+              name="from_name"
               placeholder="John Smith"
             />
           </div>
           <div className="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label>Email address</label>
             <input
               type="email"
               className="form-control"
-              id="exampleFormControlInput1"
+              name="from_email"
               placeholder="name@example.com"
             />
           </div>
           <div className="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
+            <label>Message</label>
             <textarea
               className="form-control"
-              id="exampleFormControlTextarea1"
+              name="message_html"
               rows="3"
             ></textarea>
           </div>
+          <button type="submit" className="btn btn-info">
+            Submit
+          </button>
         </form>
-
-        <button type="button" className="btn btn-info">
-          Submit
-        </button>
       </div>
       {/* Form ends here */}
     </div>

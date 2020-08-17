@@ -1,6 +1,6 @@
 import React from "react";
 import Wrapper from "../Wrapper/";
-import Thumbnail from "../Thumbnail";
+import Thumbnail from "../Thumbnail/Thumbnail";
 import searchImg from "../../Assets/search.png";
 import cookImg from "../../Assets/cook.png";
 import sleepImg from "../../Assets/sleep.png";
@@ -13,7 +13,7 @@ import budgetImg from "../../Assets/budget.png";
 function Portfolio() {
   const projects = [
     {
-      name: "TL;DR - Too Long Didn't Read Search",
+      name: "Too Long; Didn't Read",
       thumbnail: searchImg,
       url: "https://kennyqng.github.io/project-01/"
     },

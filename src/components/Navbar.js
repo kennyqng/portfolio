@@ -6,7 +6,7 @@ function Navbar() {
   const location = useLocation();
   return (
     <nav className="navbar navbar-expand-xl navbar-dark bg-dark justify-content-center mx-0 mb-4">
-    <a className="navbar-brand justify-content-center text-white mx-0" href="index.html">Kenny Nguyen</a>
+    <a className="navbar-brand justify-content-center text-white mx-0" href="/">Kenny Nguyen</a>
     <div className="navbar navbar-expand-xl bg-dark navbar-light ml-md-auto" id="navbarNav">
       <ul className="nav">
         <li className="nav-item active">

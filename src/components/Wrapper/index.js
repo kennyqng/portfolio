@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function Wrapper(props) {
   return (
-      <div className="col-lg-6">{props.children}</div>
+      <div className="wrapper">{props.children}</div>
   );
 }
 
