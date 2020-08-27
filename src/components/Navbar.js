@@ -10,13 +10,13 @@ function Navbar() {
     <div className="navbar navbar-expand-xl bg-dark navbar-light ml-md-auto" id="navbarNav">
       <ul className="nav">
         <li className="nav-item active">
-          <Link to="/" className={location.pathname === "/" ? "nav-link text-info" : "nav-link text-white"}>Home <span className="sr-only">(current)</span></Link>
+          <Link to="/" className={location.pathname === "/" ? "nav-link text-info" : "nav-link text-light"}>Home <span className="sr-only">(current)</span></Link>
         </li>
         <li className="nav-item">
-          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link text-info" : "nav-link text-white"}>Portfolio</Link>
+          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link text-info" : "nav-link text-light"}>Portfolio</Link>
         </li>
         <li className="nav-item">
-        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link text-info" : "nav-link text-white"}>Contact</Link>
+        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link text-info" : "nav-link text-light"}>Contact</Link>
         </li>
       </ul>
     </div>

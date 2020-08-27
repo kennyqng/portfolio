@@ -36,11 +36,10 @@
     transform: rotate(360deg);
   }
 }
-.link
-{
- color:#6c757d;
- text-decoration: underline; 
- background-color: none;
+.link {
+  color: #6c757d;
+  text-decoration: underline;
+  background-color: none;
 }
 html {
   position: relative;
@@ -49,55 +48,65 @@ html {
 
 /* Primary Theme */
 body {
- background-color: rgba(0, 0, 0, 0.055);
+  background-color: rgba(0, 0, 0, 0.055);
   margin-bottom: 80px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: medium;
 }
 
-
-
 /* Portfolio */
-#project-wall{
-  position: relative;
-  margin: auto;
-  width: 50%;
+
+.text-info {
+  padding: 15%;
 }
-#box{
-  position: relative;
-  margin: auto;
-  width: 100%;
+.wrapper {
+  padding-left: 10%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-content: space-between;
+  grid-gap: 30px;
 }
 
-#project-box{
-  position: relative;
-  width: 100%;
+@media (min-width: 769px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: space-between;
+    grid-gap: 40px;
+
+  }
 }
 
-#project-name{
+@media (min-width: 1080px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+    grid-gap: 40px;
+
+  }
+}
+
+#project-name {
   position: relative;
   width: 100%;
   height: 30px;
   bottom: 20px;
-  background-color:#17a2b8;
-  color: white;
+  background-color: #343a40;
+  color: #17a2b8;
   text-align: center;
   font-weight: bold;
 }
 
-.img-fluid{
-  display: block;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+/* contact */
+label {
+  color: #343a40;
 }
 
-/* contact */
-  label{
-    color: #343a40;
-  }
-
-  /* footer */
+/* footer */
 .footer-space {
   position: absolute;
   bottom: 0px;
@@ -105,11 +114,11 @@ body {
 
   height: 70px;
 }
-#footer-trim{
-position: absolute;
-bottom: 60px;
-width: 100%;
-height: 5px;
+#footer-trim {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  height: 5px;
 }
 footer {
   position: absolute;
@@ -119,5 +128,4 @@ footer {
   height: 60px;
   line-height: 60px;
   background-color: darkgray;
-};
-
+}
