@@ -6,34 +6,38 @@ import cookImg from "../../Assets/cook.png";
 import sleepImg from "../../Assets/sleep.png";
 import directoryImg from "../../Assets/directory.png";
 import weatherImg from "../../Assets/weather.png";
-import budgetImg from "../../Assets/budget.png";
 
 function Portfolio() {
   const projects = [
     {
-      name: "Too Long; Didn't Read",
+      name: "Too Long; Did Search",
       thumbnail: searchImg,
-      url: "https://kennyqng.github.io/project-01/"
+      url: "https://kennyqng.github.io/project-01/",
+      github: "https://github.com/kennyqng/project-01"
     },
     {
       name: "Pantry Chef",
       thumbnail: cookImg,
-      url: "https://pantry-chef-kenny.herokuapp.com/"
+      url: "https://pantry-chef-kenny.herokuapp.com/",
+      github: "https://github.com/kennyqng/project2"
     },
     {
-      name: "ZTrak - The Sleep App",
+      name: "ZTrak",
       thumbnail: sleepImg,
-      url: "https://github.com/kennyqng/project3"
+      url: "https://ztrak.herokuapp.com/",
+      github: "https://github.com/kennyqng/project3"
     },
     {
       name: "Employee Directory",
       thumbnail: directoryImg,
-      url: "https://kennydirectoryreact.herokuapp.com/"
+      url: "https://kennydirectoryreact.herokuapp.com/",
+      github: "https://github.com/kennyqng/employeeDirectory"
     },
     {
       name: "Weather App",
       thumbnail: weatherImg,
-      url: "https://kennyqng.github.io/Weather-Dashboard/"
+      url: "https://kennyqng.github.io/Weather-Dashboard/",
+      github: "https://github.com/kennyqng/Weather-Dashboard"
     }
   ];
   return (
@@ -48,6 +52,7 @@ function Portfolio() {
             url={project.url}
             image={project.thumbnail}
             name={project.name}
+            github={project.github}
           />
         ))}
       </div>
