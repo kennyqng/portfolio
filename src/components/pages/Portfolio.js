@@ -40,12 +40,10 @@ function Portfolio() {
     }
   ];
   return (
-    <div>
-        <h2 class="text-info py-2">Portfolio</h2>
-        <div class="container border border-dark mb-4"></div>
-      <div
-        class="wrapper"
-      >
+    <div className="container bg-white border border-light pb-4">
+        <h2 className="text-info py-2">Portfolio</h2>
+        <div className="container border border-dark mb-4"></div>
+      <div class="wrapper">
         {projects.map(project => (
           <Thumbnail
             url={project.url}

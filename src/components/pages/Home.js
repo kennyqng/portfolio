@@ -1,14 +1,15 @@
 import React from "react";
 // import profile from "../../Assets/img.JPG";
-import profile from "../../Assets/logo.svg";
+// import profile from "../../Assets/logo.svg";
+import profile from "../../Assets/profile.JPG";
 
 function Home() {
   return (
     <div>
-      <div className="container bg-white border border-light pb-4">
+      <div className="container bg-white border border-light pb-4 about">
         <h2 className="text-info py-2">About Me</h2>
 
-        <div className="container border border-dark mb-4"></div>
+        <div className="container border border-dark mb-4 "></div>
 
         <div className="container">
           <img src={profile} className="float-left pr-3" alt="profile"></img>

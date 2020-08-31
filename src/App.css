@@ -1,41 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 .link {
   color: #6c757d;
   text-decoration: underline;
@@ -53,29 +15,37 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: medium;
 }
+.text-info {
+  padding: 2%!important;
+}
 
+/* Home */
+.about {
+  min-height: 400px;
+}
+.float-left {
+  width: 200px;
+  height: auto;
+}
 /* Portfolio */
-
 .text-info {
   padding: 15%;
 }
 .wrapper {
-  padding-left: 10%;
+  /* padding-left: 7%; */
+  justify-items: center;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  align-content: space-between;
   grid-gap: 30px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    align-content: space-between;
     grid-gap: 40px;
-
   }
 }
 
@@ -84,9 +54,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    align-content: center;
     grid-gap: 40px;
-
   }
 }
 
@@ -104,6 +72,9 @@ body {
 /* contact */
 label {
   color: #343a40;
+}
+.contact-form {
+  max-width: 600px;
 }
 
 /* NavBar */
@@ -125,12 +96,13 @@ label {
   color: #17a2b8;
 }
 
+
 /* footer */
 .footer-space {
   position: absolute;
   bottom: 0px;
   width: 100%;
-
+  
   height: 70px;
 }
 #footer-trim {
