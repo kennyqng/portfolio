@@ -1,5 +1,4 @@
 import React from "react";
-import Wrapper from "../Wrapper/";
 import Thumbnail from "../Thumbnail/Thumbnail";
 import searchImg from "../../Assets/search.png";
 import cookImg from "../../Assets/cook.png";
