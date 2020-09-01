@@ -1,10 +1,10 @@
 import React from "react";
 import Thumbnail from "../Thumbnail/Thumbnail";
-import searchImg from "../../Assets/search.png";
-import cookImg from "../../Assets/cook.png";
-import sleepImg from "../../Assets/sleep.png";
-import directoryImg from "../../Assets/directory.png";
-import weatherImg from "../../Assets/weather.png";
+import searchImg from "../../Assets/search.svg";
+import cookImg from "../../Assets/cook.svg";
+import sleepImg from "../../Assets/sleep.svg";
+import directoryImg from "../../Assets/directory.svg";
+import weatherImg from "../../Assets/weather.svg";
 
 function Portfolio() {
   const projects = [
@@ -27,16 +27,16 @@ function Portfolio() {
       github: "https://github.com/kennyqng/project3"
     },
     {
-      name: "Employee Directory",
-      thumbnail: directoryImg,
-      url: "https://kennydirectoryreact.herokuapp.com/",
-      github: "https://github.com/kennyqng/employeeDirectory"
-    },
-    {
       name: "Weather App",
       thumbnail: weatherImg,
       url: "https://kennyqng.github.io/Weather-Dashboard/",
       github: "https://github.com/kennyqng/Weather-Dashboard"
+    },
+    {
+      name: "Employee Directory",
+      thumbnail: directoryImg,
+      url: "https://kennydirectoryreact.herokuapp.com/",
+      github: "https://github.com/kennyqng/employeeDirectory"
     }
   ];
   return (

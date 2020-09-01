@@ -1,6 +1,4 @@
 import React from "react";
-// import profile from "../../Assets/img.JPG";
-// import profile from "../../Assets/logo.svg";
 import profile from "../../Assets/profile.JPG";
 
 function Home() {
