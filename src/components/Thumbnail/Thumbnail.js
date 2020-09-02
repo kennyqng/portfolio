@@ -8,16 +8,16 @@ function Thumbnail(props) {
     <div>
       <div className="board">
         <div className="thumbnail">
-        <a href={props.url} target="_blank" rel="noopener nofeferrer">
-          <img src={props.image}></img>
+        <a href={props.url} target="_blank" rel="noopener noreferrer">
+          <img src={props.image} alt="thumbnail"></img>
           </a>
         </div>
         <div className="sidebar">
-          <a href={props.github} target="_blank" rel="noopener nofeferrer">
-            <img src={github}></img>
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
+            <img src={github} alt="github icon"></img>
           </a>
-          <a href={props.url} target="_blank" rel="noopener nofeferrer">
-            <img src={webIcon}></img>
+          <a href={props.url} target="_blank" rel="noopener noreferrer">
+            <img src={webIcon} alt="globe website icon"></img>
           </a>
         </div>
         <div className="bar">
