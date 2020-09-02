@@ -13,11 +13,12 @@ function Home() {
           <img src={profile} className="float-left pr-3" alt="profile"></img>
           <small className="text-muted">
             Welcome to my page. My name is Kenny Nguyen. I am a graduate of The
-            Coding Boot Camp at University of Irvine, Continuing Education. I
-            have be trained in full stack web development. I have worked with
-            html, css, Java Script, NodeJS, and React. I also have used
-            libraries such as bootstrap, MySQL, and MongoDB. My past experience
-            includes coding language Java and C++. Please visit my{" "}
+            Coding Boot Camp at University of California Irvine. I have been
+            trained in full stack web development. I have worked with HTML5,
+            CSS, Java Script, NodeJS, jQuery, Bootstrap and ReactJS. I also have
+            used database languages, SQL and noSQL, through programs such as
+            MySQL and MongoDB. My past experience includes other coding
+            language, Java and C++. Please visit my{" "}
             <a className="link" href="/portfolio">
               portfolio{" "}
             </a>
