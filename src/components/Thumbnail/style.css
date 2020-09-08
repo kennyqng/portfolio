@@ -17,7 +17,7 @@
 .sidebar {
   width: 65px;
   height: 181px;
-  background-color: #9d9d9d;
+  background-color: #C4C4C4;
   grid-column: 5 / 6;
 }
 .sidebar img {
@@ -48,11 +48,15 @@
   display: inline-block;
   max-width: 324px;
   background-color: #343a40;
-  color: #e5e5e5;
-  padding: 10px;
-  box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.4);
+  color: #E5E5E5;
+  padding: 15px;
+  box-shadow: inset 0px 5px 10px rgba(0,0,0,0.4);
   word-wrap: break-word;
-  overflow: scroll;
+  overflow: hidden;
+}
+.summary a {
+  color: #17a2b8;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -67,6 +71,6 @@
     grid-column: 2 / 4;
     height: 241px;
     max-width: 648px;
-    box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 5px 0px 5px rgba(0,0,0,0.4);
   }
 }

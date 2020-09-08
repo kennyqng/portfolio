@@ -11,27 +11,29 @@ function Home() {
 
         <div className="container">
           <div className="bio">
-          <img src={profile} className="float-left pr-3" alt="profile"></img>
-          <small className="text-muted">
-            Welcome to my page. My name is Kenny Nguyen. I am full stack web
-            developer. I am a graduate of The Coding Boot Camp at University of
-            California Irvine. I have worked with HTML5, CSS, Java Script,
-            NodeJS, jQuery, Bootstrap and ReactJS. I also have used database
-            languages, SQL and noSQL, through programs such as MySQL and
-            MongoDB. My past experience includes other coding language, Java and
-            C++. Please visit my{" "}
-            <a className="link" href="/portfolio">
-              portfolio{" "}
-            </a>
-            to see my past work. Feel free to{" "}
-            <a className="link" href="/contact">
-              contact{" "}
-            </a>{" "}
-            me. Have a wonderful day!
-          </small>
+            <img src={profile} className="float-left pr-3" alt="profile"></img>
+            <small className="text-muted">
+              Hello, my name is Kenny Nguyen. I am full stack web
+              developer. I am a graduate of The Coding Boot Camp at University
+              of California Irvine. I have worked with HTML5, CSS, Java Script,
+              NodeJS, jQuery, Bootstrap and ReactJS. I also have used database
+              languages, SQL and noSQL, through programs such as MySQL and
+              MongoDB. My past experience includes other coding language, Java
+              and C++. 
+              <br></br>
+              Please visit my{" "}
+              <a className="link" href="/portfolio">
+                portfolio{" "}
+              </a>
+              to see my past work. Feel free to{" "}
+              <a className="link" href="/contact">
+                contact{" "}
+              </a>{" "}
+              me.
+            </small>
           </div>
           <div className="tech-skills">
-          Tech Skills&nbsp;<br></br>
+            Tech Skills&nbsp;<br></br>
             <i className="fab fa-html5"></i>&nbsp;&nbsp;
             <i className="fab fa-css3-alt"></i>&nbsp;&nbsp;
             <i className="fab fa-js-square"></i>&nbsp; &nbsp;

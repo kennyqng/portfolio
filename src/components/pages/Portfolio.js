@@ -16,7 +16,7 @@ function Portfolio() {
       github: "https://github.com/kennyqng/project3",
       development: "Full-stack Development",
       description:"Sleep tracker to log sleep time, wake time, and hours slept.",
-      tech: "ReactJS, MongoDB, Express, CanvasJS, HTML, Node JS, CSS"
+      tech: "MongoDB, Express, ReactJS, Node JS, HTML, CSS, CanvasJS"
     },
     {
       id: 2,
@@ -45,7 +45,7 @@ function Portfolio() {
       url: "https://kennyqng.github.io/Weather-Dashboard/",
       github: "https://github.com/kennyqng/Weather-Dashboard",
       development: "Front-end Development",
-      description:"Search for current weather information and 5 days forecast for cities around the world",
+      description:"Search for current weather information and 5 days forecast for cities around the world.",
       tech: "HTML, Node JS, CSS"
     },
     {
@@ -55,7 +55,7 @@ function Portfolio() {
       url: "https://kennydirectoryreact.herokuapp.com/",
       github: "https://github.com/kennyqng/employeeDirectory",
       development: "Back-end Development",
-      description:"Sort and display employee information from a database",
+      description:"Sort and display employee information from a database.",
       tech: "SQL, Express, HTML, Node JS, CSS"
     }
   ];

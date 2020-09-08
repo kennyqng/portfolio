@@ -9,7 +9,7 @@ function Thumbnail(props) {
       <div className="board">
         <div className="thumbnail">
           <a href={props.url} target="_blank" rel="noopener noreferrer">
-            <img src={props.image} alt="thumbnail"></img>
+            <img src={props.image} alt="project thumbnail"></img>
           </a>
         </div>
         <div className="sidebar">
@@ -25,15 +25,21 @@ function Thumbnail(props) {
         </div>
       </div>
       <div className="summary">
-        <p className="description">{props.development}</p>
-        <p className="description">{props.description}</p>
-        <p className="description">{props.tech}</p>
-        <a href={props.github} target="_blank" rel="noopener noreferrer">
-          <p>{props.github}</p>
-        </a>
-        <a href={props.url} target="_blank" rel="noopener noreferrer">
-          <p>{props.url}</p>
-        </a>
+          <h5>{props.development}</h5>
+        <p className="description">
+          {props.description}
+          <br></br>
+          {props.tech}
+        </p>
+        <p>
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
+            {props.github}
+          </a>
+          <br></br>
+          <a href={props.url} target="_blank" rel="noopener noreferrer">
+            {props.url}
+          </a>
+        </p>
       </div>
     </div>
   );

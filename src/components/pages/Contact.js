@@ -32,24 +32,33 @@ function Contact() {
 
         <div className="container border border-dark mb-4 line"></div>
         <div className="social-network">
-          <div className="kenny">Kenny Nguyen <br></br>Westminster, CA</div>
+          <div className="kenny">
+            Kenny Nguyen <br></br>Westminster, CA
+          </div>
           <div className="contact-link">
-          <a href="https://www.linkedin.com/in/kennyqng" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-linkedin"> linkedin.com/in/kennyqng</i>
-          </a>
-            </div>  
+            <a
+              href="https://www.linkedin.com/in/kennyqng"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin"> linkedin.com/in/kennyqng</i>
+            </a>
+          </div>
           <div className="contact-link">
-          <a href="https://github.com/kennyqng" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github-square"> github.com/kennyqng</i>
-          </a>
-            </div>  
+            <a
+              href="https://github.com/kennyqng"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github-square"> github.com/kennyqng</i>
+            </a>
+          </div>
           <div className="contact-link">
-          <a href="mailto:kennyqng@gmail.com">
-            <i className="fas fa-envelope"> kennyqng@gmail.com</i>
-          </a>
-            </div>
-            <img className="klogo" src={Logo}></img>
-
+            <a href="mailto:kennyqng@gmail.com">
+              <i className="fas fa-envelope"> kennyqng@gmail.com</i>
+            </a>
+          </div>
+          <img className="kLogo" src={Logo} alt="logo K"></img>
         </div>
 
         <form className="contact-form" onSubmit={sendEmail}>
@@ -59,7 +68,7 @@ function Contact() {
               type="text"
               className="form-control"
               name="from_name"
-              placeholder="John Smith"
+              placeholder="FirstName LastName"
             />
           </div>
           <div className="form-group">
