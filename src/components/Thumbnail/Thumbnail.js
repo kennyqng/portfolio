@@ -29,12 +29,11 @@ function Thumbnail(props) {
         <p className="description">{props.description}</p>
         <p className="description">{props.tech}</p>
         <a href={props.github} target="_blank" rel="noopener noreferrer">
-        <p>{props.github}</p>
-          </a>
-          <a href={props.url} target="_blank" rel="noopener noreferrer">
+          <p>{props.github}</p>
+        </a>
+        <a href={props.url} target="_blank" rel="noopener noreferrer">
           <p>{props.url}</p>
-          </a>
-        
+        </a>
       </div>
     </div>
   );

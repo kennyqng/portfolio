@@ -48,9 +48,11 @@
   display: inline-block;
   max-width: 324px;
   background-color: #343a40;
-  color: #E5E5E5;
+  color: #e5e5e5;
   padding: 10px;
-  box-shadow: inset 5px 5px 10px rgba(0,0,0,0.4);
+  box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.4);
+  word-wrap: break-word;
+  overflow: scroll;
 }
 
 @media (min-width: 768px) {
@@ -65,5 +67,6 @@
     grid-column: 2 / 4;
     height: 241px;
     max-width: 648px;
+    box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.4);
   }
 }

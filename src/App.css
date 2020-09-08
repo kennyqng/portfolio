@@ -121,7 +121,7 @@ label {
     font-size: 20px;
   }
   .klogo {
-    display: flex;
+    display: block;
     opacity: 80%;
     padding: 0px 0px 0px 10px;
   }

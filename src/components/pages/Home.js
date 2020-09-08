@@ -41,7 +41,7 @@ function Home() {
           </div>
           <small className="text">Languages: </small>
           <small className="text-muted">
-            Javascript, HTML, CSS, Javascript, Node JS, SQL, noSQL
+            Javascript, HTML, CSS, Node JS, SQL, noSQL
           </small>
           <br></br>
           <small className="text">Libraries: </small>

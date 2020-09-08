@@ -34,12 +34,12 @@ function Contact() {
         <div className="social-network">
           <div className="kenny">Kenny Nguyen <br></br>Westminster, CA</div>
           <div className="contact-link">
-          <a href="https://www.linkedin.com/in/kennyqng">
+          <a href="https://www.linkedin.com/in/kennyqng" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"> linkedin.com/in/kennyqng</i>
           </a>
             </div>  
           <div className="contact-link">
-          <a href="https://github.com/kennyqng">
+          <a href="https://github.com/kennyqng" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github-square"> github.com/kennyqng</i>
           </a>
             </div>  
