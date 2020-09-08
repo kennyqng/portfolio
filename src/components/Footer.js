@@ -7,7 +7,7 @@ function Footer() {
         <footer className="footer bg-info" id="footer-trim"></footer>
         <footer className="footer bg-dark" id="footer">
           <div className="containter text-center">
-            <small className="text-light">Copyright&copy; kennyqng</small>
+            <small className="text-light">kennyqng 2020</small>
           </div>
         </footer>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import Logo from "../../Assets/logo-no-bg.svg";
 
 function Contact() {
   function sendEmail(e) {
@@ -15,7 +16,7 @@ function Contact() {
       .then(
         result => {
           console.log(result.text);
-          alert("sent!")
+          alert("sent!");
         },
         error => {
           console.log(error.text);
@@ -29,7 +30,27 @@ function Contact() {
       <div className="container bg-white border border-light pb-4 form">
         <h2 className="text-info py-2">Contact</h2>
 
-        <div className="container border border-dark mb-4"></div>
+        <div className="container border border-dark mb-4 line"></div>
+        <div className="social-network">
+          <div className="kenny">Kenny Nguyen <br></br>Westminster, CA</div>
+          <div className="contact-link">
+          <a href="https://www.linkedin.com/in/kennyqng">
+            <i className="fab fa-linkedin"> linkedin.com/in/kennyqng</i>
+          </a>
+            </div>  
+          <div className="contact-link">
+          <a href="https://github.com/kennyqng">
+            <i className="fab fa-github-square"> github.com/kennyqng</i>
+          </a>
+            </div>  
+          <div className="contact-link">
+          <a href="mailto:kennyqng@gmail.com">
+            <i className="fas fa-envelope"> kennyqng@gmail.com</i>
+          </a>
+            </div>
+            <img className="klogo" src={Logo}></img>
+
+        </div>
 
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="form-group">
