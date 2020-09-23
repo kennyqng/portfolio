@@ -4,7 +4,7 @@ import profile from "../../Assets/profile.JPG";
 function Home() {
   return (
     <div>
-      <div className="container bg-white border border-light pb-4 about">
+      <div className="container bg-white border border-light pb-4 outline about">
         <h2 className="text-info py-2">About Me</h2>
 
         <div className="container border border-dark mb-4 "></div>
@@ -13,21 +13,21 @@ function Home() {
           <div className="bio">
             <img src={profile} className="float-left pr-3" alt="profile"></img>
             <small className="text-muted">
-              Hello, my name is Kenny Nguyen. I am full stack web
-              developer. I am a graduate of The Coding Boot Camp at University
-              of California Irvine. I have worked with HTML5, CSS, Java Script,
-              NodeJS, jQuery, Bootstrap and ReactJS. I also have used database
+              Hello, my name is Kenny Nguyen. I am full stack web developer. I
+              am a graduate of The Coding Boot Camp at University of California
+              Irvine. I have worked with HTML5, CSS, Java Script, NodeJS,
+              jQuery, Bootstrap and ReactJS. I also have used database
               languages, SQL and noSQL, through programs such as MySQL and
               MongoDB. My past experience includes other coding language, Java
-              and C++. 
+              and C++.
               <br></br>
               Please visit my{" "}
               <a className="link" href="/portfolio">
-                portfolio{" "}
-              </a>
+                portfolio
+              </a>{" "}
               to see my past work. Feel free to{" "}
               <a className="link" href="/contact">
-                contact{" "}
+                contact
               </a>{" "}
               me.
             </small>
@@ -41,20 +41,19 @@ function Home() {
             <i className="fab fa-react"></i>&nbsp;&nbsp;
             <i className="fab fa-npm"></i>&nbsp;&nbsp;
           </div>
-          <small className="text">Languages: </small>
+          <small className="text">Front-end: </small>
           <small className="text-muted">
-            Javascript, HTML, CSS, Node JS, SQL, noSQL
+            Javascript, ReactJS, HTML, CSS, jQuery, Bootstrap, Handlebars
           </small>
           <br></br>
-          <small className="text">Libraries: </small>
+          <small className="text">Back-end: </small>
           <small className="text-muted">
-            ReactJS, Bootstrap, Handlebars, JQuery, Canvas JS
+            mySQL, MongoDB, Express.js, Node JS
           </small>
           <br></br>
           <small className="text">Applications: </small>
           <small className="text-muted">
-            Visual Studio Code, MySQL, MongoDB, Robo 3T, Git version control,
-            Heroku, Figma wireframe
+            Visual Studio Code, Git version control, Heroku, Figma wireframe
           </small>
         </div>
       </div>

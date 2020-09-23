@@ -10,7 +10,7 @@ html {
 
 /* Primary Theme */
 body {
-  background-color: rgba(0, 0, 0, 0.055);
+  /* background-color: rgba(0, 0, 0, 0.055); */
   margin-bottom: 80px;
   font-family: "Montserrat", sans-serif;
   font-size: medium;
@@ -20,6 +20,9 @@ body {
 }
 
 /* HOME */
+.outline {
+  border: none!important;
+}
 .about {
   min-height: 400px;
   font-size: 20px;

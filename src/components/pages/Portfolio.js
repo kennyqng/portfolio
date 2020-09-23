@@ -60,7 +60,7 @@ function Portfolio() {
     }
   ];
   return (
-    <div className="container bg-white border border-light pb-4">
+    <div className="container bg-white border border-light pb-4 outline">
       <h2 className="text-info py-2">Portfolio</h2>
       <div className="container border border-dark mb-4 "></div>
       <div className="wrapper">

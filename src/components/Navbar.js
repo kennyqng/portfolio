@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-xl navbar-dark bg-dark justify-content-center mx-0 mb-4">
       <a
         className="navbar-brand justify-content-center text-white mx-0"
-        href="/"
+        href="/home"
       >
         <img
           src={logo}
@@ -27,9 +27,9 @@ function Navbar() {
         <ul className="nav">
           <li className="nav-item active">
             <Link
-              to="/"
+              to="/home"
               className={
-                location.pathname === "/" ? "nav-link " : "nav-link text-light"
+                location.pathname === "/home" ? "nav-link " : "nav-link text-light"
               }
             >
               Home <span className="sr-only">(current)</span>

@@ -27,7 +27,7 @@ function Contact() {
   return (
     <div className="contact">
       {/* Form goes here */}
-      <div className="container bg-white border border-light pb-4 form">
+      <div className="container bg-white border border-light pb-4 outline form">
         <h2 className="text-info py-2">Contact</h2>
 
         <div className="container border border-dark mb-4 line"></div>

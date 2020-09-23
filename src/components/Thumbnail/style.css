@@ -52,7 +52,7 @@
   padding: 15px;
   box-shadow: inset 0px 5px 10px rgba(0,0,0,0.4);
   word-wrap: break-word;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .summary a {
   color: #17a2b8;
@@ -72,5 +72,6 @@
     height: 241px;
     max-width: 648px;
     box-shadow: inset 5px 0px 5px rgba(0,0,0,0.4);
-  }
+    padding: 30px;
+}
 }
