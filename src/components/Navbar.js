@@ -37,9 +37,9 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/portfolio"
+              to="/projects"
               className={
-                location.pathname === "/portfolio"
+                location.pathname === "/projects"
                   ? "nav-link "
                   : "nav-link text-light"
               }
