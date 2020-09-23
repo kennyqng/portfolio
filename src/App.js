@@ -12,7 +12,7 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <div className="Portfolio">
         <Navbar/>
-        <Route exact path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         <Footer />
