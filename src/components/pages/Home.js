@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../../Assets/profile.JPG";
+import { Link, useLocation } from "react-router-dom";
 
 function Home() {
   return (
@@ -22,14 +23,14 @@ function Home() {
               and C++.
               <br></br>
               Please visit my{" "}
-              <a className="link" href="/portfolio/projects">
+              <Link className="link" to="/projects">
                 portfolio
-              </a>{" "}
+              </Link>{" "}
               to see my past work. Feel free to{" "}
-              <a className="link" href="/portfolio/contact">
+              <Link className="link" to="contact">
                 contact
-              </a>{" "}
-              me.
+              </Link>{" "}
+              me. Thank you.
             </small>
           </div>
           <div className="tech-skills">
