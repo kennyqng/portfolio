@@ -22,11 +22,11 @@ function Home() {
               and C++.
               <br></br>
               Please visit my{" "}
-              <a className="link" href="/projects">
+              <a className="link" href="/portfolio/projects">
                 portfolio
               </a>{" "}
               to see my past work. Feel free to{" "}
-              <a className="link" href="/contact">
+              <a className="link" href="/portfolio/contact">
                 contact
               </a>{" "}
               me.
