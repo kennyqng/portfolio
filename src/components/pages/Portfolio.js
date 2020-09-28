@@ -13,7 +13,7 @@ function Portfolio() {
       name: "ZTrak",
       thumbnail: sleepImg,
       url: "https://ztrak.herokuapp.com/",
-      github: "https://github.com/kennyqng/project3",
+      github: "https://github.com/kennyqng/Ztrak",
       development: "Full-stack Development",
       description:"Sleep tracker to log sleep time, wake time, and hours slept.",
       tech: "MongoDB, Express, ReactJS, Node JS, HTML, CSS, CanvasJS"
@@ -23,7 +23,7 @@ function Portfolio() {
       name: "Pantry Chef",
       thumbnail: cookImg,
       url: "https://pantry-chef-kenny.herokuapp.com/",
-      github: "https://github.com/kennyqng/project2",
+      github: "https://github.com/kennyqng/Pantry-Chef",
       development: "Full-stack Development",
       description:"Website that provides recipes for dishes based on ingredients search.",
       tech: "HTML, Node JS, CSS, Materialize UI, Handlebars, mySQL"
@@ -32,8 +32,8 @@ function Portfolio() {
       id: 3,
       name: "Too Long; Did Search",
       thumbnail: searchImg,
-      url: "https://kennyqng.github.io/project-01/",
-      github: "https://github.com/kennyqng/project-01",
+      url: "https://kennyqng.github.io/TLDS/",
+      github: "https://github.com/kennyqng/TLDS",
       development: "Front-end Development",
       description:"An encyclopedia search engine that provides a short summary and visual so that the user gets a quick understanding and continues on with their day.",
       tech: "Bootstrap, HTML, JS, CSS"
