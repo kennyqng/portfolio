@@ -9,9 +9,10 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    // <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={"/portfolio"}>
       <div className="Portfolio">
-        <Navbar/>
+        <Navbar />
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Portfolio} />
         <Route path="/contact" component={Contact} />
