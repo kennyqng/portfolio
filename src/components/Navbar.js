@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-xl navbar-dark bg-dark justify-content-center mx-0 mb-4">
       <a
         className="navbar-brand justify-content-center text-white mx-0"
-        href="/"
+        href="https://kennyqng.github.io/portfolio/"
       >
         <img
           src={logo}
