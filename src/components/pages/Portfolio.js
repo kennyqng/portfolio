@@ -15,8 +15,8 @@ function Portfolio() {
       url: "https://ztrak.herokuapp.com/",
       github: "https://github.com/kennyqng/Ztrak",
       development: "Full-stack Development",
-      description:"Sleep tracker to log sleep time, wake time, and hours slept.",
-      tech: "MongoDB, Express, ReactJS, Node JS, HTML, CSS, CanvasJS"
+      description:"To monitor your sleep habits to aid you in achieving better health. ZTrak logs your sleep time, wake time, and amount slept. Your data is summarized in your log history and displayed on a chart. Sign up for your own account or simply use the demo account: [ztrak@herokuapp.com]  password: [abc123].",
+      tech: "ReactJS, MongoDB, Express, CanvasJS, Node JS, HTML, CSS"
     },
     {
       id: 2,
@@ -25,8 +25,8 @@ function Portfolio() {
       url: "https://pantry-chef-kenny.herokuapp.com/",
       github: "https://github.com/kennyqng/Pantry-Chef",
       development: "Full-stack Development",
-      description:"Website that provides recipes for dishes based on ingredients search.",
-      tech: "HTML, Node JS, CSS, Materialize UI, Handlebars, mySQL"
+      description:"Pantry Chef provides you recipes for dishes based on ingredients search. You can also search by dish names from a database over 5,000 recipes shared on the internet.",
+      tech: "Handlebars, mySQL, Materialize UI, HTML, Node JS, CSS,"
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ function Portfolio() {
       github: "https://github.com/kennyqng/TLDS",
       development: "Front-end Development",
       description:"An encyclopedia search engine that provides a short summary and visual so that the user gets a quick understanding and continues on with their day.",
-      tech: "Bootstrap, HTML, JS, CSS"
+      tech: "API, Bootstrap, HTML, JS, CSS"
     },
     {
       id: 4,
@@ -46,7 +46,7 @@ function Portfolio() {
       github: "https://github.com/kennyqng/Weather-Dashboard",
       development: "Front-end Development",
       description:"Search for current weather information and 5 days forecast for cities around the world.",
-      tech: "HTML, Node JS, CSS"
+      tech: "API, HTML, Node JS, CSS"
     },
     {
       id: 5,
