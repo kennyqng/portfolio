@@ -14,13 +14,14 @@ function Home() {
           <div className="bio">
             <img src={profile} className="float-left pr-3" alt="profile"></img>
             <small className="text-muted">
-              Hello, my name is Kenny Nguyen. I am full stack web developer. I
-              am a graduate of The Coding Boot Camp at University of California
-              Irvine. I have worked with HTML5, CSS, Java Script, NodeJS,
-              jQuery, Bootstrap and ReactJS. I also have used database
-              languages, SQL and noSQL, through programs such as MySQL and
-              MongoDB. My past experience includes other coding language, Java
-              and C++.
+              Hello, I'm Kenny Nguyen. A full stack web developer with a passion for creativity and to solve problems through technology. I received a web development certification from University of California, Irvine. A professional background in social services which included experiences in customer service, team projects, and supports to colleagues.
+              <br></br>
+              I have worked with HTML5, CSS, Java Script, NodeJS,
+              jQuery, Bootstrap and ReactJS. I have also used database
+              programs such as MySQL and MongoDB. In the past, I've also experience in other coding languages, Java and C++.
+              <br></br>
+              A self motivated person, a great communicator, and team player. A developer that will provide an intuitive user experience and a refined UI using the latest technologies.
+              <br></br>
               <br></br>
               Please visit my{" "}
               <Link className="link" to="/projects">
@@ -30,9 +31,10 @@ function Home() {
               <Link className="link" to="contact">
                 contact
               </Link>{" "}
-              me. Thank you.
+              me.
             </small>
           </div>
+          <br></br>
           <div className="tech-skills">
             Tech Skills&nbsp;<br></br>
             <i className="fab fa-html5"></i>&nbsp;&nbsp;
