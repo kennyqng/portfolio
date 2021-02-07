@@ -25,10 +25,8 @@ function Thumbnail(props) {
         </div>
       </div>
       <div className="summary">
-          <h5>{props.development}</h5>
-        <p className="description">
-          {props.description}          
-        </p>
+        <h5>{props.development}</h5>
+        <p className="description">{props.description}</p>
         <p className="tech">{props.tech}</p>
         {/* <p>
           <a href={props.github} target="_blank" rel="noopener noreferrer">
