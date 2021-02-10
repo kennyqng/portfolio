@@ -60,7 +60,7 @@ function Contact() {
           </div>
           <div className="contact-link">
             <a href="https://kennyqng.github.io/resume/">
-              <i className="far fa-file-pdf"> Resume</i>
+              <i className="far fa-file-pdf"> My Resume</i>
             </a>
           </div>
           <img className="kLogo" src={Logo} alt="logo K"></img>
